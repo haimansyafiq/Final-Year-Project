@@ -1,5 +1,7 @@
 function [rend,rmat] = R_RK2(rstart, t0, tsteps, dt, parvec)
 
+%============ Currently not called in main =======%
+
   N = size(rstart, 1); %no. of particles
   rnow = rstart;
 
